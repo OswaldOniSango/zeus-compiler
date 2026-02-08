@@ -1,12 +1,8 @@
-package com.zeus;
-
-import com.zeus.lexer.Lexer;
+package com.oswaldo;
 
 public class Main {
     public static void main(String[] args) {
-        String code = "int x = 3 + 4;";
-        Lexer lexer = new Lexer(code);
 
-        lexer.tokenize().forEach(System.out::println);
+        System.out.println("Hola Mundo");
     }
 }
